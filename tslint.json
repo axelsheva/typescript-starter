@@ -1,0 +1,74 @@
+{
+  "extends": [
+    "tslint:recommended"
+  ],
+  "rules": {
+    "array-type": [
+      true,
+      "generic"
+    ],
+    "member-access": [
+      false
+    ],
+    "ordered-imports": [
+      false
+    ],
+    "member-ordering": [
+      false
+    ],
+    "interface-name": [true, "always-prefix"],
+    "arrow-parens": false,
+    "object-literal-sort-keys": false,
+    "indent": [
+      true,
+      "spaces",
+      4
+    ],
+    "max-line-length": [
+      true,
+      {
+        "limit": 120,
+        "ignore-pattern": "^\/\/ .*"
+      }
+    ],
+    "no-empty": false,
+    "no-shadowed-variable": true,
+    "no-switch-case-fall-through": true,
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "always",
+        "singleline": "never",
+        "esSpecCompliant": true
+      }
+    ],
+    "no-unused-expression": [
+      true,
+      "allow-fast-null-checks"
+    ],
+    "no-unused-variable": false,
+    "quotemark": [
+      true,
+      "single",
+      "jsx-single"
+    ],
+    "no-duplicate-switch-case": true,
+    "complexity": [
+      "error",
+      4
+    ],
+    "switch-default": true,
+    "prefer-object-spread": true,
+    "no-magic-numbers": true,
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ],
+    "no-console": true,
+    "interface-over-type-literal": false,
+    "semicolon": [true, "always", "ignore-bound-class-methods"],
+    "typedef": [true, "arrow-parameter", "parameter", "arrow-call-signature", "call-signature"]
+  }
+}
