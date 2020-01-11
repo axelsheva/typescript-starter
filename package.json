@@ -1,17 +1,17 @@
 {
   "name": "typescript-simple-starter",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Typescript simple starter",
   "main": "./src/index.ts",
   "scripts": {
     "build": "tsc",
-    "start:watch": "nodemon",
-    "start": "node -r ts-node/register ./src/index.ts",
+    "start": "nodemon",
+    "start:node": "node -r ts-node/register ./src/index.ts",
     "lint": "tslint --fix --project '.'",
     "test:coverage": "jest --coverage",
     "test": "jest"
   },
-  "keywords": [],
+  "keywords": ["typescript", "starter"],
   "author": "Oleksandr Shevchenko",
   "license": "MIT",
   "devDependencies": {
